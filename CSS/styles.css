@@ -514,12 +514,13 @@ a {
 
 .testimonial__image > img {
     width: 100%;
+    padding-right: 2rem;
 }
 
 .testimonial__image > .icon-container {
     position: absolute;
     top: 3rem;
-    right: -32px;
+    right: -12px;
 }
 
 @media screen and (min-width: 768px) {
@@ -530,6 +531,15 @@ a {
 
     .testimonial .quote {
         margin-left: 6rem;
+    }
+
+
+    .testimonial__image > img {
+        padding-right: 0;
+    }
+
+    .testimonial__image > .icon-container {
+        right: -32px;
     }
 }
 
@@ -641,6 +651,7 @@ a {
 
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .container {
